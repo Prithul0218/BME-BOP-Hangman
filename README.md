@@ -2,6 +2,7 @@
 Class project for basics of programming 1 at my university (BME).
 
 ## DETAILED SPECIFICATIONS
+**This is AI generated for now, will improve later to match the real game**
 
 FEATURE LIST
 • Always 10 misses allowed
@@ -71,5 +72,3 @@ If the word packs cannot be read during startup, the program prints an error mes
 ---
 
 ## END OF SPECIFICATION
-
-If you want, I can shorten this even more, or format it as a formal SRS document.
