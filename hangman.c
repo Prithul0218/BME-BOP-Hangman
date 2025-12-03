@@ -223,14 +223,15 @@ int main(void) {
     StringList words;
     sl_init(&words);
 
-    // menu
+    /*
     Program Menus
-        When the program starts,
-        the user is greeted with a main menu that allows them to begin a
-            game,
-        adjust settings, choose a word pack, or exit.All input must be valid before the program proceeds.Invalid inputs result in a clear error message and a new prompt.Exiting the program displays a short goodbye message and terminates.
-
-                                             printf("Which word pack would you like to use?\n");
+    When the program starts, the user is greeted with a main menu that allows them to begin a game,
+    adjust settings, choose a word pack, or exit.All input must be valid
+    before the program proceeds.Invalid inputs result in a clear error message
+    and a new prompt.Exiting the program displays a short goodbye message and terminates.
+    */
+   
+    printf("Which word pack would you like to use?\n");
     for (size_t i = 0; i < sizeof(word_pack_paths) / sizeof(word_pack_paths[0]); ++i) {
         printf("%zu: %s\n", i + 1, word_pack_paths[i].name);
     }
